@@ -44,7 +44,7 @@ if (($handle = fopen($filename, "r")) !== FALSE) {
                 <?php
                 // Hiển thị từng sinh viên
                 foreach ($sinhvien as $sv) {
-                    // echo "<tr>";
+                    echo "<tr>";
                     // echo "<td>{$sv['username']}</td>";
                     echo "<td>{$sv['password']}</td>";
                     echo "<td>{$sv['lastname']}</td>";
