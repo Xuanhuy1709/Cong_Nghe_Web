@@ -31,7 +31,6 @@ if (($handle = fopen($filename, "r")) !== FALSE) {
         <table class="table table-bordered table-striped">
             <thead class="table-dark">
                 <tr>
-                    <th>ID</th>
                     <th>Mật khẩu</th>
                     <th>Họ</th>
                     <th>Tên</th>
@@ -45,7 +44,6 @@ if (($handle = fopen($filename, "r")) !== FALSE) {
                 // Hiển thị từng sinh viên
                 foreach ($sinhvien as $sv) {
                     echo "<tr>";
-                    echo "<td>{$sv['username']}</td>";
                     echo "<td>{$sv['password']}</td>";
                     echo "<td>{$sv['lastname']}</td>";
                     echo "<td>{$sv['firstname']}</td>";
