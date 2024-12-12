@@ -340,8 +340,8 @@
                                 </span>
                             </th>
                                 <th>ID</th>
-                                <th>Class Name</th>
-                                <th>Teacher</th>
+                                <th>Grade</th>
+                                <th>Room</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -353,9 +353,9 @@
                                     <label for="checkbox{{ $class->id }}"></label>
                                 </span>
                             </td>
-                                <td>{{ $class->class_id }}</td>
-                                <td>{{ $class->class_name }}</td>
-                                <td>{{ $class->teacher }}</td>
+                                <td>{{ $class->id }}</td>
+                                <td>{{ $class->grade_level }}</td>
+                                <td>{{ $class->room_number }}</td>
                             <td>
                                 <a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
                                 <a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
